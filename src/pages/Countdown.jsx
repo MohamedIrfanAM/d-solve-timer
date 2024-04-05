@@ -19,7 +19,7 @@ function Countdown() {
   }, []);
 
   function calculateTimeLeft() {
-    const difference = +new Date("2024-04-05T21:00:00") - +new Date();
+    const difference = +new Date("2024-04-05T17:00:00") - +new Date();
     let timeLeft = {};
 
     if (difference > 0) {
@@ -69,7 +69,7 @@ function Countdown() {
           LET'S SOLVE TOGETHER
         </h6>
         <h2 className="font-century-school-sb-bold text-3xl sm:text-6xl mt-20">
-          Hacking ends in
+          Refreshment Break
         </h2>
         <h2 className="text-[76px] sm:text-[128px] md:text-[176px] lg:text-[256px] leading-tight">
           {timeLeft.days} : {timeLeft.hours} : {timeLeft.minutes} :{" "}
