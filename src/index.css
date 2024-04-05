@@ -1,0 +1,22 @@
+@import 'tailwindcss/base';
+@import 'tailwindcss/components';
+@import 'tailwindcss/utilities';
+
+:root {
+  scroll-behavior: smooth;
+}
+
+@font-face {
+  font-family: 'Schabo';
+  src: url(assets/fonts/schabo.otf) format('opentype');
+}
+
+@font-face {
+  font-family: 'Thunder';
+  src: url(assets/fonts/thunder.ttf) format('truetype');
+}
+
+@font-face {
+  font-family: 'Zallord';
+  src: url(assets/fonts/zallord.ttf) format('truetype');
+}
