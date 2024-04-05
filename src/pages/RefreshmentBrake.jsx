@@ -3,7 +3,7 @@ import { motion } from "framer-motion";
 import tinkerhub from "../assets/tinkerhub_logo.png";
 import iet from "../assets/iet_logo.png";
 
-function Countdown() {
+function RefreshMent() {
   const [timeLeft, setTimeLeft] = useState(calculateTimeLeft());
 
   React.useEffect(() => {
@@ -77,7 +77,7 @@ function Countdown() {
           LET'S SOLVE TOGETHER
         </h6>
         <h2 className="font-century-school-sb-bold text-3xl sm:text-6xl mt-20">
-          Refreshment Break
+          RefreshMent Break
         </h2>
         <h2 className="text-[76px] sm:text-[128px] md:text-[176px] lg:text-[256px] leading-tight">
           {timeLeft.days} : {timeLeft.hours} : {timeLeft.minutes} :{" "}
@@ -88,4 +88,4 @@ function Countdown() {
   );
 }
 
-export default Countdown;
+export default RefreshMent;
