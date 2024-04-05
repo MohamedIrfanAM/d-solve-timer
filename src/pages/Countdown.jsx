@@ -51,7 +51,7 @@ function Countdown() {
   return (
     <div
       id="countdown"
-      className="scroll-smooth snap-center bg-primary relative h-screen font-schabo text-ivory text-center flex flex-col justify-center items-center gap-0 sm:p-8"
+      className="scroll-smooth snap-center bg-primary relative h-screen font-schabo text-ivory text-center flex flex-col justify-center items-center gap-0 sm:p-8 overflow-hidden"
       style={{ 
         background: "rgb(148,104,250)",
         background: "linear-gradient(90deg, rgba(148,104,250,1) 8%, rgba(45,20,112,1) 86%)"
@@ -59,14 +59,6 @@ function Countdown() {
     >
       <div className="absolute top-0 left-1/2 transform -translate-x-1/2 w-full text-center">
         <img src={tinkerhub} alt="Tinkerhub" className="m-3 w-20 sm:w-40" />
-      </div>
-
-      <div className="absolute bottom-12">
-        <div
-          className="apply-button"
-          data-hackathon-slug="code-recet"
-          data-button-theme="dark"
-        ></div>
       </div>
       
       <div className="flex flex-col justify-center items-center">

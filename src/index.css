@@ -20,3 +20,7 @@
   font-family: 'Zallord';
   src: url(assets/fonts/zallord.ttf) format('truetype');
 }
+
+ body {
+  overflow: hidden; /* Hide scrollbars */
+}
