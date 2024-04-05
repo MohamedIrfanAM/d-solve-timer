@@ -19,7 +19,7 @@ function Countdown() {
   }, []);
 
   function calculateTimeLeft() {
-    const difference = +new Date("2024-04-05T11:15:00") - +new Date();
+    const difference = +new Date("2024-04-05T11:25:00") - +new Date();
     let timeLeft = {};
 
     if (difference > 0) {
